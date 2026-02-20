@@ -1,6 +1,6 @@
 def main():
-    color1 = "blue"
-    color2 = "white"
+    color1 = "blue "
+    color2 = "teal"
     print(f"1) Use {color2} to roll a ball.")
     # Collect input. Use choice1 Prompt:"1, 2, or 3? "
     choice1 = input("1, 2, or 3? ")
@@ -22,7 +22,7 @@ def main():
         print("4) Use the ropes to make stripes.\n")
     print("5) Add two tiny dots for eyes on the front.")
     choice3 = input()
-    print(f"7) Write {choice3} on the name card.")
+    print(f"6) Write {choice3} on the name card.")
 
 if __name__ == "__main__":
     main()
